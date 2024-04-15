@@ -32,6 +32,8 @@
 5. Optionally, click "Regenerate" to generate a new password based on your preferences.
 6. Copy the generated password and use it wherever you need it.
 
-## Additional Options (Coming Soon)
+## Screenshots
+
+![Chrome Extension Screenshot](https://raw.githubusercontent.com/areyvahi/map-polygon/main/screen-shot.png)
 
 For support, [satishsahu1998@gmail.com](mailto:satishsahu1998@gmail.com)
