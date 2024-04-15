@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Random Password Generator",
+    "description": "Generate random passwords with customizable options.",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "privacy.png"
+    }
+  }
+  
