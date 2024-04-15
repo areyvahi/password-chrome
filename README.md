@@ -34,6 +34,6 @@
 
 ## Screenshots
 
-![Chrome Extension Screenshot](https://raw.githubusercontent.com/areyvahi/map-polygon/main/screen-shot.png)
+![Chrome Extension Screenshot](https://github.com/areyvahi/password-chrome/blob/main/ss.jpg)
 
 For support, [satishsahu1998@gmail.com](mailto:satishsahu1998@gmail.com)
