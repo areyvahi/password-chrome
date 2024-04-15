@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const randomIndex = Math.floor(Math.random() * (password.length + 1));
             password = password.slice(0, randomIndex) + specificString + password.slice(randomIndex);
         }
+        document.getElementById('copy-btn').classList.remove("d-none");
         return password;
     }
 
@@ -22,8 +23,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Function to handle button click
     document.getElementById('generate-btn').addEventListener('click', function() {
-        const length = document.getElementById('length').value;
+        let length = document.getElementById('length').value;
         const specificString = document.getElementById('specific-string').value;
+        length = length - specificString.length;
         const generatedPassword = generatePassword(length, specificString);
         displayPassword(generatedPassword);
     });
