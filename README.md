@@ -1,39 +1,39 @@
 # Random Password Generator Chrome Extension
 
+A clean, fast Chrome extension for generating strong passwords with smart controls, a strength meter, and a little bit of fun.
+
 ## Features
 
-- **Customizable Length:** Choose the desired length of the generated password.
-- **Include Specific String:** Incorporate a specific string within the generated password.
-- **Regenerate Option:** Re-generate passwords as many times as needed.
-- **Additional Options:** Explore additional customization options for enhanced password generation.
+- **Modern UI:** Crisp card layout, responsive controls, and quick actions.
+- **Length slider + input:** Set 6–64 characters instantly.
+- **Smart options:** Toggle lowercase, uppercase, numbers, and symbols.
+- **Extra safety:** Exclude similar characters and avoid ambiguous symbols.
+- **Specific string:** Inject a word or initials without breaking length.
+- **Strength meter:** Quick feedback on password quality.
+- **Surprise Me:** Randomized settings for creative results.
+- **One-click copy:** Clipboard copy with inline status messages.
 
-## How to Install
+## Install
 
-### From GitHub Repository
+1. Download this repository or clone it.
+2. Open Chrome and go to `chrome://extensions/`.
+3. Enable **Developer mode** (top right).
+4. Click **Load unpacked** and select the project folder.
 
-1. **Download Repository:**
-   - Go to the GitHub repository: [Random Password Generator](https://github.com/areyvahi/password-chrome).
-   - Click on the "Code" button and select "Download ZIP".
-   - Extract the downloaded ZIP file to your desired location.
+## Usage
 
-2. **Load Extension in Chrome:**
-   - Open Google Chrome and go to `chrome://extensions/`.
-   - Enable "Developer mode" by toggling the switch in the top right corner.
-   - Click on the "Load unpacked" button.
-   - Navigate to the extracted folder of the extension and select it.
-   - The extension should now be installed and visible in your Chrome extensions.
+1. Click the extension icon.
+2. Pick a length, toggle options, and add an optional string.
+3. Click **Generate Password**.
+4. Click **Copy** to place it on your clipboard.
+5. Try **Surprise Me** for randomized settings.
 
-## How to Use
+## Privacy
 
-1. Install the Chrome Extension.
-2. Click on the extension icon to activate it.
-3. Customize your password preferences.
-4. Click the "Generate" button to create a secure password.
-5. Optionally, click "Regenerate" to generate a new password based on your preferences.
-6. Copy the generated password and use it wherever you need it.
+All password generation happens locally in your browser. No data is collected or sent anywhere.
 
 ## Screenshots
 
-![Chrome Extension Screenshot](https://github.com/areyvahi/password-chrome/blob/main/ss.jpg)
+![Chrome Extension Screenshot](https://github.com/areyvahi/password-chrome/blob/main/ss.png)
 
 For support, [satishsahu1998@gmail.com](mailto:satishsahu1998@gmail.com)
